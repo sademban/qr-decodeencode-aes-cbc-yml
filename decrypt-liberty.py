@@ -12,7 +12,7 @@ key = config['qrcode']['secretKey'].encode('utf-8')
 iv = config['qrcode']['iv'].encode('utf-8')
 
 # Encrypted Base64 string (replace this with the actual encrypted string)
-encrypted_base64 = "xxxxxxxxxxxxx=="  # Example from your previous output 
+encrypted_base64 = "-8YXcAWvCPY1WmVQnK1v_g=="  # Example from your previous output 
 # Decode the Base64 string to get the encrypted bytes
 encrypted_data = base64.b64decode(encrypted_base64)
 
