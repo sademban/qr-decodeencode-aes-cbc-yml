@@ -3,7 +3,7 @@ import pyzbar.pyzbar as pyzbar
 
 # Load the image with the QR code
 # img = Image.open(r'test\1.png')  # Replace with the path to your QR code image
-img = Image.open(r'media/test.png')  # [hospital code : 0153] [clinic code:0001]  [customer code:000013]
+img = Image.open(r'o-4.png')  # [hospital code : 0153] [clinic code:0001]  [customer code:000013]
 
 # Decode the QR code
 decoded_objects = pyzbar.decode(img)

@@ -14,7 +14,7 @@ key = config['qrcode']['secretKey'].encode('utf-8')
 iv = config['qrcode']['iv'].encode('utf-8')
 
 # Load the image with the QR code
-img = Image.open(r'media/test.png')  # Replace with the correct path to your QR code image
+img = Image.open(r'maeda-test.png')  # Replace with the correct path to your QR code image
 
 # Decode the QR code
 decoded_objects = pyzbar.decode(img)

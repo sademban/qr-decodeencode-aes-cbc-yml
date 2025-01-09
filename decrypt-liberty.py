@@ -13,7 +13,8 @@ iv = config['qrcode']['iv'].encode('utf-8')
 
 # Encrypted Base64 string (replace this with the actual encrypted string)
 # encrypted_base64 = "+8YXcAWvCPY1WmVQnK1v/g=="  # Example from your previous output  #( replace - with + and undersocre _ with / in base64 string)
-encrypted_base64 = "KUOEbjmn6n55mT4Db5NCeA=="  # Example from your previous output  #( replace - with + and undersocre _ with / in base64 string)
+encrypted_base64 = "JDwVN15nw/Lm9dHaf7azNQ=="  # Example from your previous output  #( replace - with + and undersocre _ with / in base64 string)
+encrypted_base64 = encrypted_base64.replace('-', '+').replace('_', '/')
 # Decode the Base64 string to get the encrypted bytes
 encrypted_data = base64.b64decode(encrypted_base64)
 
